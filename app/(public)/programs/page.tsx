@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "Our Programs",
   description:
     "Explore our training programs including Broadcast training and LMS.",
+  alternates: {
+    canonical: "https://www.fortunacenter.com/programs",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function ProgramsPage() {
